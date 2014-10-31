@@ -91,6 +91,9 @@ sub Shutdown()
 
 sub CheckForChanges()
 {
+    # BUG #4 FIX: Don't let today go negative
+    $dbh->do("UPDATE $dbtable SET today = 0 WHERE today < 0");
+
     # Display running users' time
     my $sth = $dbh->prepare("SELECT login, timeleft, today FROM
                             $dbtable WHERE isrunning = TRUE ORDER BY login ASC");
@@ -132,8 +135,6 @@ sub CheckForChanges()
         print "[" . localtime() . "] CHANGE: User $user: OUT OF TIME TODAY\n" if $verbose;
         syslog(LOG_NOTICE, "$user is out of time for today");
         &StopNet ($user);
-        # BUG #4 FIX: Don't let today go negative
-        $dbh->do("UPDATE $dbtable SET today = 0 WHERE today < 0");
     }
 
     # CASE 2: Switched on or off
