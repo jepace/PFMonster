@@ -1,0 +1,37 @@
+# $Id: pfm.pf-ruleset,v 1.1 2014/07/06 17:05:28 jepace Exp $
+#
+# Modifications needed to your PF firewall ruleset.
+#
+
+#
+# Add this to the top
+#
+table <whitelist> persist file "/etc/pfm.whitelist"
+table <ip_jepace> persist { 192.168.42.210, 192.168.42.211, 192.168.42.212, 192.168.42.213, 192.168.42.214, 192.168.42.215,192.168.42.216,192.168.42.217}
+table <ip_sloane> persist { 192.168.42.230, 192.168.42.231, 192.168.42.232, 192.168.42.233, 192.168.42.234, 192.168.42.235,192.168.42.236,192.168.42.237}
+table <ip_ethan> persist { 192.168.42.240, 192.168.42.241, 192.168.42.242, 192.168.42.243, 192.168.42.244, 192.168.42.245,192.168.42.246,192.168.42.247}
+
+
+#
+# Add this section to your ruleset
+#
+
+#############################################################################
+# PF Monster
+#
+# Setup rules that change dynamically, based on redemption of choremonster.com
+# points.
+#
+# to open: echo "pass from <ip_jepace> to any keep state" | pfctl -a pfm_jepace -f -
+# to close: pfctl -a pfm_jepace -Fr
+# to see status: pfctl -a pfm_jepace -sr
+#
+anchor "pfmonster_base" {
+	block log from {<ip_jepace>, <ip_sloane>, <ip_ethan>}
+	pass from {<ip_jepace>, <ip_sloane>, <ip_ethan>} to 192.168.42.254
+	#pass inet proto tcp from {<ip_jepace>, <ip_sloane>, <ip_ethan>} to any port {imap, imaps}
+	pass from {<ip_jepace>, <ip_sloane>, <ip_ethan>} to <whitelist> keep state
+}
+anchor "pfm_jepace"
+anchor "pfm_sloane"
+anchor "pfm_ethan"

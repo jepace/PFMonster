@@ -1,0 +1,58 @@
+# $Id: README,v 1.4 2014/09/08 03:00:50 jepace Exp $
+
+PFMonster
+(c) James E. Pace 2014
+
+This set of tools to tie internet usage to completion of chores.
+Chore backend is via choremonster.com.
+
+TODO:
+
+* Use passwords for authentication
+* Security scrub!
+* Error handling
+* Create db user for pfm and use that, with password
+* Make firewall rulesets less Pace specific
+* Abstract configuration to config files (eg, database location and access)
+* Improve sites in whitelist
+
+Setup:
+
+* Create pfm database in postgresql using schema
+* Create Gmail rule to put Choremonster reward email in PFMonster folder
+* Configure fetchmail to pull email from PFMonster folder
+* Configure fetchmail to deliver email to pfm-mail.pl
+* Configure webserver to serve the web pages (eg http://pfmonster.pacehouse.com)
+* Configure pf (/etc/pf.conf) to have rules and anchors
+* Install pfm.whitelist to /etc
+* Add crontab to reset daily time limit [See below for example]
+* Run pfmd.pl
+
+How to check if things are working:
+* pfctl -sr | grep pfm
+* pfctl -a pfm_user -sr
+    - Empty when not running
+    - Has rules when time is running
+
+==============
+Sample Crontab
+==============
+As root...
+30 03 * * * /usr/local/bin/psql -U pgsql pfm -c "UPDATE pfm SET today = 7200;"
+
+=====
+Files
+=====
+pfmd.pl             Daemon that runs everything
+pfm.pf-ruleset      Sample firewall ruleset
+pfm.whitelist       List of sites allowed when not using time
+pfm.pl              CLI tool for manipulation [Deprecated]
+pfm.sql             Database schema
+pfm-mail.pl         Process choremonster rewards email
+sample-mail.txt     Test data of email processing system
+
+index.php           The main page; present login; show time; start/stop
+stop-start.php      Handler for hitting start / stop
+validate.php        Handler for logging in
+admin.php           Display and interact with all users info
+

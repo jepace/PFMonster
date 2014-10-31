@@ -1,0 +1,205 @@
+Delivered-To: james@pacehouse.com
+Received: by 10.96.36.233 with SMTP id t9csp372010qdj;
+        Sun, 6 Jul 2014 15:39:12 -0700 (PDT)
+X-Received: by 10.140.97.53 with SMTP id
+l50mr38686024qge.29.1404686352597;
+        Sun, 06 Jul 2014 15:39:12 -0700 (PDT)
+Return-Path:
+<000001470dd4b1ca-ae9a1690-c7f7-45ec-b626-e4cfc06a98ad-000000@amazonses.com>
+Received: from a8-94.smtp-out.amazonses.com
+(a8-94.smtp-out.amazonses.com. [54.240.8.94])
+        by mx.google.com with ESMTPS id
+q45si10851916qga.96.2014.07.06.15.39.12
+        for <james@pacehouse.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 06 Jul 2014 15:39:12 -0700 (PDT)
+Received-SPF: pass (google.com: domain of
+000001470dd4b1ca-ae9a1690-c7f7-45ec-b626-e4cfc06a98ad-000000@amazonses.com
+designates 54.240.8.94 as permitted sender) client-ip=54.240.8.94;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of
+000001470dd4b1ca-ae9a1690-c7f7-45ec-b626-e4cfc06a98ad-000000@amazonses.com
+designates 54.240.8.94 as permitted sender)
+smtp.mail=000001470dd4b1ca-ae9a1690-c7f7-45ec-b626-e4cfc06a98ad-000000@amazonses.com;
+       dkim=pass header.i=@choremonster.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+    s=pievktbroco6c23mkiqcpptbfsqebo2f; d=choremonster.com;
+    t=1404686348;
+    h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding;
+    bh=nOV4xnEDU96fjL/WpbiVkpj0awyAbfSorTX7AVCC67M=;
+    b=d0GI1APkKb4NPbaV0e9ee0O5Pva+0IpMLPGp537dXwrTXYZDQHRPByk8vJQToj38
+    NaR7EbQCrgPluMLxei5aCY3yzmpgpGG/tQThczMmKLIqD+AliQY+Bi7IJ0aa25iSkz7
+    ghSEAN9ndH3S2ml+Lelb50VJXDN4UvizILR/k4vY=
+Date: Sun, 6 Jul 2014 22:39:08 +0000
+From: ChoreMonster <alerts@choremonster.com>
+To: james@pacehouse.com
+Message-ID:
+<000001470dd4b1ca-ae9a1690-c7f7-45ec-b626-e4cfc06a98ad-000000@email.amazonses.com>
+Subject: Reward Update: jepace has redeemed '30 minutes of Internet
+freedom'
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_53b9d00caa045_23fb5889e3400108897";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-SES-Outgoing: 2014.07.06-54.240.8.94
+
+
+----==_mimepart_53b9d00caa045_23fb5889e3400108897
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Reward Update
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Hurry quickly! jepace wants to "cash in" a reward. You can confirm it
+as =
+you see fit.
+
+jepace wants:
+30 minutes of Internet freedom (25)
+
+To review jepace=E2=80=99s redeemed rewards, visit the following
+address:=
+
+https://www.choremonster.com/parents/children/skgp/rewards
+
+
+-------------
+You can disable this email alert for completed chores and requested
+rewar=
+ds by visiting the following address:
+https://www.choremonster.com/single_click/unsubscribe_daily/70b0395aadf4e=
+92eb6d9fe7862f112f9
+
+
+----==_mimepart_53b9d00caa045_23fb5889e3400108897
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html><html><head><meta content="text/html; charset=utf-8"
+http-equiv="Content-Type" /><meta content="width=device-width,
+initial-scale=1.0" name="viewport" /><title>Reward
+Update</title><style type="text/css">body {
+width:100%!important;background:#fce8c5;border:0;padding:0;margin:0; }
+table td { border-collapse: collapse;margin:0;padding:0; }
+table tr { border-collapse: collapse;margin:0;padding:0; }
+table { border-collapse:collapse; mso-table-lspace:0pt;
+mso-table-rspace:0pt;margin:0;padding:0; }
+#header { height:270px;margin:0;padding:0;overflow: hidden; }
+h1, h2, h3, h4, p { display: block; margin:0; padding: 0; }
+br { margin:1px;padding:0;line-height:1px;font-size:1px;
+}</style></head><body bgcolor="fce8c5">
+<table bgcolor="fce8c5" border="0" cellpadding="0" cellspacing="0"
+width="100%"><tr><td align="center" valign="top">
+<table align="center"
+background="https://cdn.choremonster.com/assets/email/bg-6b0b40603e8b812e02a7c8b71371d630.png"
+border="0" cellpadding="0" cellspacing="0" height="175"
+width="100%"><tr><td align="center" height="175" valign="top">
+<table align="center" border="0" cellpadding="0" cellspacing="0"
+height="175" width="500"><tr><td align="left" style="line-height:1px;"
+valign="top" width="500"><a href="https://www.choremonster.com/"
+target="_blank" title="ChoreMonster.com"><img alt="ChoreMonster"
+border="0" height="175"
+src="https://cdn.choremonster.com/assets/email/logo-e0b8d1a73902debd0cded4427ae7bd1b.png"
+width="500" /></a></td></tr></table></td></tr></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0"
+width="100%"><tr><td align="center" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="500"><tr><td
+height="25">&nbsp;</td></tr>
+<tr><td align="left" valign="top"><p
+style="font-family:Helvetica,Arial,sans-serif;font-size:16px;line-height:20px;color:#60310f;margin:0
+0 10px 0;padding:0;">Hurry quickly! jepace wants to "cash in" a
+reward. You can confirm the reward as you see fit.</p><p
+style="margin:0;">&nbsp;</p>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td
+align="left" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td
+height="10" style="line-height:1px;" width="10"><img
+alt="Box.main.corner.top.left" height="10"
+src="https://cdn.choremonster.com/assets/email/box.main.corner.top.left-5cd57e61b34f5876b7d528a6ffb8cadc.png"
+width="10" /></td><td height="10" style="line-height:1px;"
+width="100%"><img alt="Box.main.top" height="10"
+src="https://cdn.choremonster.com/assets/email/box.main.top-51e1785c6497d354e992281c928f57a3.png"
+width="100%" /></td><td height="10" style="line-height:1px;"
+width="10"><img alt="Box.main.corner.top.right" height="10"
+src="https://cdn.choremonster.com/assets/email/box.main.corner.top.right-dfbaa858584939cd83b2460a1db49f10.png"
+width="10" /></td></tr>
+<tr><td
+background="https://cdn.choremonster.com/assets/email/box.main.left-e9e7f7d63078a175abe5f3bb10ad38e2.png"
+width="10">&nbsp;</td><td align="center" bgcolor="fdecce"
+valign="middle" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td
+colspan="5" height="15">&nbsp;</td></tr><tr><td
+width="25">&nbsp;</td><td>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td
+align="left" height="125" valign="top" width="135"><div
+style="height:94px;width:94px;background:white;border: solid 8px
+#ec4224;border-radius:75px;overflow:hidden;"><img
+alt="Child.girl.view" height="94"
+src="https://cdn.choremonster.com/assets/parents/child.girl.view-f71e959f9e90c7d14d49292410dae308.png"
+width="94" /></div></td><td align="left" valign="top"><h2
+style="margin:25px 0 0
+0;padding:0;font-family:Helvetica,Arial,sans-serif;font-size:25px;line-height:30px;color:#b56915;letter-spacing:-1px;font-weight:bold;"><strong>jepace
+has redeemed the following reward:</strong></h2></td></tr><tr><td
+align="left" colspan="2" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td
+align="left" valign="middle" width="320"><p
+style="margin:0;padding:0;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:25px;color:#ec4224;">30
+minutes of Internet freedom</p></td><td align="right" valign="middle"
+width="50"><h3
+style="margin:0;padding:0;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:25px;color:#ec4224;letter-spacing:-1px;font-weight:bold;"><strong>25</strong></h3></td><td
+width="40">&nbsp;</td><td valign="middle" width="40"><a
+href="https://www.choremonster.com/single_click/confirm_reward/70b0395aadf4e92eb6d9fe7862f112f9/NDE1NDcw"
+target="_blank" title="Approve Chore"><img alt="Confirm Reward"
+border="0" height="30"
+src="https://cdn.choremonster.com/assets/email/button.approve-e3448490563e2fb0b34287d45ae5bcde.png"
+width="40" /></a></td></tr></table></td></tr></table></td><td
+width="25">&nbsp;</td></tr><tr><td colspan="5"
+height="15">&nbsp;</td></tr></table></td><td
+background="https://cdn.choremonster.com/assets/email/box.main.right-18cd3a6ec1c3e9a2ed8613b4111b77fa.png"
+width="10">&nbsp;</td></tr>
+<tr><td height="10" style="line-height:1px;" width="10"><img
+alt="Box.main.corner.bottom.left" height="10"
+src="https://cdn.choremonster.com/assets/email/box.main.corner.bottom.left-82126029fbd0bdc56c2957ba05d272c7.png"
+width="10" /></td><td height="10" style="line-height:1px;"
+width="100%"><img alt="Box.main.bottom" height="10"
+src="https://cdn.choremonster.com/assets/email/box.main.bottom-d8ccbe011160e463f95d06d15226d8bb.png"
+width="100%" /></td><td height="10" style="line-height:1px;"
+width="10"><img alt="Box.main.corner.bottom.right" height="10"
+src="https://cdn.choremonster.com/assets/email/box.main.corner.bottom.right-5e3e5c509cfc6b187af68eb8c530788d.png"
+width="10" /></td></tr></table></td></tr></table><p
+style="margin:0;">&nbsp;</p>
+<p style="font-family:Helvetica, Arial,
+sans-serif;font-size:12px;line-height:14px;color:#60310f;margin:0 0
+10px 0;padding:0;">You can disable this email alert for completed
+chores and requested rewards with one click.<br /><a
+href="https://www.choremonster.com/single_click/unsubscribe_daily/70b0395aadf4e92eb6d9fe7862f112f9"
+style="color:#60310f;text-decoration:underline;font-weight:bold;">Click
+here to disable the instant email alert.</a></p></td></tr>
+<tr><td align="center" height="75" valign="middle"><a
+href="https://www.choremonster.com/" target="_blank"
+title="ChoreMonster.com"><img alt="Home" border="0" height="40"
+src="https://cdn.choremonster.com/assets/email/social.home-284c3612725fbcfb7c081d9f09cdf744.png"
+width="40" /></a><a href="http://blog.choremonster.com"
+target="_blank" title="ChoreMonster Blog"><img alt="Blog" border="0"
+height="40"
+src="https://cdn.choremonster.com/assets/email/social.blog-bfce17f540dd87f1e56d6953bea6ce54.png"
+width="40" /></a>
+<a href="http://facebook.com/choremonster" target="_blank" title="Like
+Us on Facebook"><img alt="Facebook" border="0" height="40"
+src="https://cdn.choremonster.com/assets/email/social.facebook-780e2582499a65af6cc8f76454da0f95.png"
+width="40" /></a><a href="http://twitter.com/choremonster"
+target="_blank" title="Follow Us On Twitter"><img alt="Twitter"
+border="0" height="40"
+src="https://cdn.choremonster.com/assets/email/social.twitter-466f98c8bf5782eb1722a4522ceafe4f.png"
+width="40" /></a><a href="http://pinterest.com/choremonster"
+target="_blank" title="Pin Us on Pinterest"><img alt="Pinterest"
+border="0" height="40"
+src="https://cdn.choremonster.com/assets/email/social.pinterest-3fea35884db9cbe8c607e7af3eeda6b5.png"
+width="40"
+/></a></td></tr></table></td></tr></table></td></tr></table></body></html>
+----==_mimepart_53b9d00caa045_23fb5889e3400108897--
+
