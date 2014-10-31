@@ -132,10 +132,8 @@ sub CheckForChanges()
         print "[" . localtime() . "] CHANGE: User $user: OUT OF TIME TODAY\n" if $verbose;
         syslog(LOG_NOTICE, "$user is out of time for today");
         &StopNet ($user);
-        # BUG FIX: Allow negative time
-        # $dbh->do("UPDATE $dbtable SET timeleft = 0 WHERE timeleft < 0");
-        # A little tolerance for timing issues
-        $dbh->do("UPDATE $dbtable SET today = 0 WHERE today = -1");
+        # BUG #4 FIX: Don't let today go negative
+        $dbh->do("UPDATE $dbtable SET today = 0 WHERE today < 0");
     }
 
     # CASE 2: Switched on or off
